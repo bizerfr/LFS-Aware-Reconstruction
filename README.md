@@ -10,7 +10,7 @@ official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D P
 - OpenMP
 
 The local feature size (LFS) estimation is available on this [repository](https://github.com/bizerfr/cgal/tree/psp-lfs). 
-We make a [pull request](https://github.com/CGAL/cgal/pull/8006) to the [CGAL](https://github.com/CGAL/cgal) repository. You can see the header file and examples files we add [here](https://github.com/CGAL/cgal/pull/8006/files).
+We make a [pull request](https://github.com/CGAL/cgal/pull/8006) to the [CGAL library](https://github.com/CGAL/cgal). You can see the header file and examples files we add [here](https://github.com/CGAL/cgal/pull/8006/files).
 
 To use the LFS package, install the dependencies and git clone our [branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 We provide two examples using our package.
