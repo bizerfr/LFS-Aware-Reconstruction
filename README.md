@@ -10,4 +10,5 @@ official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D P
 - CGAL
 - OpenMP
 
-The local feature size estimation is available here: ([](https://github.com/bizerfr/cgal/tree/psp-lfs))
+The local feature size estimation is available on this [repository](https://github.com/bizerfr/cgal/tree/psp-lfs).
+We make a [pull request](https://github.com/CGAL/cgal/pull/8006) to the [CGAL](https://github.com/CGAL/cgal).
