@@ -25,4 +25,4 @@ make lfs_example_pointset && make lfs_example_tuple
 ```
 Try on your point cloud!
 
-Full code will be released after the preprint is accepted somewhere.
+Full code will be released after the preprint is accepted.
