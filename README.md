@@ -23,6 +23,6 @@ mkdir build && cd build
 cmake ..
 make lfs_example_pointset && make lfs_example_tuple
 ```
-Try on your point cloud!
+Try on your own point cloud!
 
 Full code will be released after the preprint is accepted.
