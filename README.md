@@ -1,5 +1,5 @@
 # LFS-Aware Surface Reconstruction
-Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D Point Clouds ([arxiv](https://arxiv.org/))
+Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D Point Clouds ([arxiv](https://arxiv.org/abs/2403.13924))
 ![](teaser/teaser.gif)
 
 ### Dependencies
