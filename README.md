@@ -12,7 +12,7 @@ Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D P
 The local feature size (LFS) estimation is available on this [repository](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 We fork from the official [CGAL](https://github.com/CGAL/cgal) library, and implement a local feature size estimation package. The implementation is [here](https://github.com/CGAL/cgal/pull/8006/files).
 
-To use the LFS package, install the CGAL dependencies and git clone our customized [CGAL branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
+To use the LFS package, install the CGAL dependencies and git clone our [customized CGAL branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 ```
 git clone https://github.com/bizerfr/cgal/tree/psp-lfs
 ```
