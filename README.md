@@ -18,6 +18,7 @@ git clone https://github.com/bizerfr/cgal.git
 cd cgal
 git checkout psp-lfs
 ```
+Then, replace the original CGAL path (CGAL_DIR) with our customized CGAL.
 We provide two examples.
 ```
 cd Point_set_processing_3/examples/Point_set_processing_3
