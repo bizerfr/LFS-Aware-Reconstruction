@@ -15,10 +15,12 @@ We fork from the official [CGAL](https://github.com/CGAL/cgal) library, and impl
 To use the LFS package, install the CGAL dependencies and git clone our [customized CGAL branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 ```
 git clone https://github.com/bizerfr/cgal.git
+cd cgal
+git checkout psp-lfs
 ```
 We provide two examples.
 ```
-cd cgal/Point_set_processing_3/examples/Point_set_processing_3
+cd Point_set_processing_3/examples/Point_set_processing_3
 mkdir build && cd build
 cmake ..
 make lfs_example_pointset && make lfs_example_tuple
