@@ -14,7 +14,7 @@ We fork from the official [CGAL](https://github.com/CGAL/cgal) library, and impl
 
 To use the LFS package, install the CGAL dependencies and git clone our [customized CGAL branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 ```
-git clone https://github.com/bizerfr/cgal/tree/psp-lfs
+git clone https://github.com/bizerfr/cgal.git
 ```
 We provide two examples.
 ```
