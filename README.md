@@ -1,5 +1,5 @@
 # LFS-Aware Surface Reconstruction
-Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D Point Clouds ([arxiv](https://arxiv.org/))
+Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D Point Clouds ([arxiv](https://arxiv.org/abs/2403.13924))
 ![](teaser/teaser.gif)
 
 ### Dependencies
@@ -10,19 +10,22 @@ Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D P
 - OpenMP
 
 The local feature size (LFS) estimation is available on this [repository](https://github.com/bizerfr/cgal/tree/psp-lfs). 
-We fork from the official [CGAL library](https://github.com/CGAL/cgal), and implement a local feature size estimation package. The implementation is [here](https://github.com/CGAL/cgal/pull/8006/files).
+We fork from the official [CGAL](https://github.com/CGAL/cgal) library, and implement a local feature size estimation package. The implementation is [here](https://github.com/CGAL/cgal/pull/8006/files).
 
-To use the LFS package, install the CGAL dependencies and git clone our own [branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
+To use the LFS package, install the CGAL dependencies and git clone our [customized CGAL branch](https://github.com/bizerfr/cgal/tree/psp-lfs). 
 ```
-git clone https://github.com/bizerfr/cgal/tree/psp-lfs
+git clone https://github.com/bizerfr/cgal.git
+cd cgal
+git checkout psp-lfs
 ```
+Then, replace the original CGAL path (```CGAL_DIR```) with our customized CGAL.
 We provide two examples.
 ```
-cd cgal/Point_set_processing_3/examples/Point_set_processing_3
+cd Point_set_processing_3/examples/Point_set_processing_3
 mkdir build && cd build
 cmake ..
 make lfs_example_pointset && make lfs_example_tuple
 ```
-Try on your point cloud!
+Try on your own point cloud!
 
-Full code will be released after the preprint is accepted somewhere.
+Full code will be released after the preprint is accepted.
