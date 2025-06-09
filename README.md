@@ -6,7 +6,7 @@ Official implementation of LFS-Aware Surface Reconstruction from Unoriented 3D P
 - Boost
 - Eigen3
 - QT5
-- CGAL
+- CGAL5.6.1
 - OpenMP
 
 The local feature size (LFS) estimation is available on this [repository](https://github.com/bizerfr/cgal/tree/psp-lfs). 
