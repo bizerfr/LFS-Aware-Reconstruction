@@ -28,4 +28,9 @@ make lfs_example_pointset && make lfs_example_tuple
 ```
 Try on your own point cloud!
 
+### Tips for Using the Toolbox
+- When modifying parameters, be sure to re-run the corresponding steps that depend on them.
+For example, if you change any parameters related to Adaptive Meshing, you must also re-execute the following steps: Estimate_sample_facet_size, Lipschitz_continuity_smoothing_SFS, and Adaptive_meshing.
+
+
 Full code will be released after the preprint is accepted.
