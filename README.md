@@ -29,8 +29,9 @@ make lfs_example_pointset && make lfs_example_tuple
 Try on your own point cloud!
 
 ### Tips for Using the Toolbox
-- When modifying parameters, be sure to re-run the corresponding steps that depend on them.
-For example, if you change any parameters related to Adaptive Meshing, you must also re-execute the following steps: Estimate_sample_facet_size, Lipschitz_continuity_smoothing_SFS, and Adaptive_meshing.
+- When modifying parameters, be sure to re-run the corresponding steps that depend on them. For example, if you change any parameters related to Adaptive Meshing, you must also re-execute the following steps: Estimate_sample_facet_size, Lipschitz_continuity_smoothing_SFS, and Adaptive_meshing.
+- Load_Polylines is used to load sharp feature curves, which should be stored in a separate file from the point cloud data.
+- max_facet_size, min_facet_size_thickenss_ratio should be carefully tuned. Make sure that max_facet_size is larger than the min_facet_size determined by min_facet_size_thickness_ratio.
 
 
 Full code will be released after the preprint is accepted.
